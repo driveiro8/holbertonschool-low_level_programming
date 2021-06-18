@@ -1,12 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - entry point
+ * main - Prints a text according number
  *
- * Description: Prints a number and it's last digit along with whether its
- * last digit is 0, greater than 5, or less than 6 and not 0.
- * Return: 0
+ * Return: Always (Success)
  */
 int main(void)
 {
@@ -16,19 +15,19 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	lastDigit = n % 10;
-	if (lastDigit == 0)
-	{
-		printf("Last digit of %d is 0 and is  0\n", n);
-	}
 
-	else if (lastDigit < 6)
-	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n",
-		       n, lastDigit);
-	}
-	else (lastDigit > 5)
+	if (lastDigit > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n",
+		       n, lastDigit);
+	}
+	else if (lastDigit == 0)
+	{
+		printf("Last digit of %d is %d and is 0\n", n, lastDigit);
+	}
+	else if (lastd < 6 && lastDigit != 0)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n",
 		       n, lastDigit);
 	}
 
