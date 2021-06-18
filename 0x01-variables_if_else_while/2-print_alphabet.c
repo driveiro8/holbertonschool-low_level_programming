@@ -1,10 +1,15 @@
 #include <stdio.h>
-
-int main (void)
+/**
+ * main - Prints the alphabetic
+ *
+ * Return: Always (Success)
+ */
+int main(void)
 {
 	char charC, line;
+
 	line = '\n';
-        for (charC='a'; charC <='z'; charC++)
+	for (charC = 'a'; charC < = 'z'; charC++)
 	{
 		putchar (charC);
 	}
