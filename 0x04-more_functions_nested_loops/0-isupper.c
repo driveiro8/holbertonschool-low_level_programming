@@ -12,6 +12,8 @@ int _isupper(int i)
 	{
 		return (1);
 	}
-
+	else
+	{
 	return (0);
+	}
 }
