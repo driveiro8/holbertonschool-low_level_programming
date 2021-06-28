@@ -32,7 +32,7 @@ void print_rev(char *s)
 
 	for (i = x ; *(s + i - 1) != '\0' ; i--)
 	{
-		putchar(*(s + i - 1));
+		_putchar(*(s + i - 1));
 	}
 	_putchar('\n');
 }
