@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 
 /**
- * prints a string in reverse
+ * print_rev: prints a string in reverse
  * @s : character
  *
  **/
